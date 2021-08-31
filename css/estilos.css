@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:lightpink;
+}
+
+
+/*HEADER Y MENÚ*/
+.header{
+    width: 100%;
+}
+.header > img{
+    width: 10%;
+    margin: auto;
+    display: block;
+}
+
+.menu{
+    background-color: black;
+    color: white;
+    position: sticky;
+    margin-top: 5px;
+    font-family: monospace;
+    font-size: x-large;
+}
+.list-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    list-style: none;
+    background-color: black;
+
+}
+.list-menu > .list-item{
+    padding: 10px;
+    border: 1px solid white;
+    margin: 5px;
+    background-color: black;
+    border-radius: 5px;
+}
+.list-menu > .list-item:hover{
+    cursor: pointer;
+}
+
+/*ZAPATILLAS*/
+.section-products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.section-products > .product{
+    width: 28%;
+    box-shadow: 5px 5px 15px 5px grey;
+    text-align: center;
+    margin: 20px;
+}
+.section-products > .product:hover{
+    cursor: pointer;
+    transform: scale(.98);
+    background-color: black;
+}
+.section-products > .product > img{
+    width: 100%;
+    max-width: 100%;
+    height: 450px;
+    max-height: 450px;
+}
+.section-products > .product > .product-area{
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bolder;
+    background-color: black;
+    
+}
+.section-products > .product > .product-name{
+    color: greenyellow;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: lighter;
+    background-color: black;
+    
+}
+.section-products > .product > .product-price{
+    color: cyan;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bolder;
+    background-color: black;
+}
